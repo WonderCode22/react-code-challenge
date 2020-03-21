@@ -1,0 +1,21 @@
+footer{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    color: white;
+    font-size: 16px;
+    background-color: black;
+    padding: 50px 150px;
+}
+
+footer .menu-shortcut{
+    margin-bottom: 10px;
+}
+footer .menu-shortcut span{
+    margin: 0 20px;
+}
+
+footer .copyright-text{
+    font-size: 14px;
+}
