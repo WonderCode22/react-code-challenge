@@ -9,14 +9,8 @@ const HomePage = () => {
         <Fragment>
             <Header title='Titles'></Header>
             <Content>
-                <div className="row">
-                    <div className="col-md-2">
-                        <Link to='/series'><Card type='Series' title='Popular Series'></Card></Link>
-                    </div>
-                    <div className="col-md-2">
-                        <Link to='/movies'><Card type='Movies' title='Popular Movies'></Card></Link>
-                    </div>
-                </div>
+                <Link to='/series'><Card type='Series' title='Popular Series'></Card></Link>
+                <Link to='/movies'><Card type='Movies' title='Popular Movies'></Card></Link>
             </Content>
         </Fragment>
     )
